@@ -1,0 +1,10 @@
+### Create Article Type
+POST localhost:8080/articleType/create
+Content-Type: application/json
+
+{
+  "orderNumber": 1,
+  "nameUz" : "Asosiy",
+  "nameRu": "Glavniy",
+  "nameEn": "Genaral"
+}
